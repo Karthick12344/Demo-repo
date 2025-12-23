@@ -1,0 +1,16 @@
+2025-12-22T18:42:25.880-08:00  INFO 5896 --- [Demo_1] [main] com.example.demo_1.Demo1Application      : Starting Demo1Application using Java 21.0.9 with PID 5896 (C:\Users\WELCOME\IdeaProjects\Demo_1\target\classes started by WELCOME in C:\Users\WELCOME\IdeaProjects\Demo_1)
+2025-12-22T18:42:25.892-08:00 DEBUG 5896 --- [Demo_1] [main] com.example.demo_1.Demo1Application      : Running with Spring Boot v4.0.1, Spring v7.0.2
+2025-12-22T18:42:25.894-08:00  INFO 5896 --- [Demo_1] [main] com.example.demo_1.Demo1Application      : No active profile set, falling back to 1 default profile: "default"
+2025-12-22T18:42:28.151-08:00  INFO 5896 --- [Demo_1] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2025-12-22T18:42:28.175-08:00  INFO 5896 --- [Demo_1] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2025-12-22T18:42:28.176-08:00  INFO 5896 --- [Demo_1] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2025-12-22T18:42:28.322-08:00  INFO 5896 --- [Demo_1] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2228 ms
+2025-12-22T18:42:29.758-08:00  INFO 5896 --- [Demo_1] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2025-12-22T18:42:29.770-08:00  INFO 5896 --- [Demo_1] [main] com.example.demo_1.Demo1Application      : Started Demo1Application in 5.178 seconds (process running for 6.147)
+2025-12-22T18:42:29.812-08:00  INFO 5896 --- [Demo_1] [main] com.example.demo_1.Demo1Application      : Log level: INFO
+2025-12-22T18:42:29.812-08:00 DEBUG 5896 --- [Demo_1] [main] com.example.demo_1.Demo1Application      : Log level: DEBUG
+2025-12-22T18:42:29.815-08:00 ERROR 5896 --- [Demo_1] [main] com.example.demo_1.Demo1Application      : Log level: ERROR
+2025-12-22T18:42:29.815-08:00  WARN 5896 --- [Demo_1] [main] com.example.demo_1.Demo1Application      : Log level: WARN
+2025-12-22T18:49:15.162-08:00  INFO 5896 --- [Demo_1] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2025-12-22T18:49:15.163-08:00  INFO 5896 --- [Demo_1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2025-12-22T18:49:15.166-08:00  INFO 5896 --- [Demo_1] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
