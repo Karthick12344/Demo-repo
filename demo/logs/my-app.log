@@ -1,0 +1,60 @@
+2026-01-21T18:17:40.641+05:30  INFO 6872 --- [demo] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.9 with PID 6872 (C:\Users\WELCOME\IdeaProjects\Spring Security\demo\target\classes started by WELCOME in C:\Users\WELCOME\IdeaProjects\Spring Security\demo)
+2026-01-21T18:17:40.679+05:30 DEBUG 6872 --- [demo] [main] com.example.demo.DemoApplication         : Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-21T18:17:40.680+05:30  INFO 6872 --- [demo] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-01-21T18:17:44.927+05:30  INFO 6872 --- [demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-01-21T18:17:44.974+05:30  INFO 6872 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-21T18:17:44.975+05:30  INFO 6872 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-21T18:17:45.082+05:30  INFO 6872 --- [demo] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 4302 ms
+2026-01-21T18:17:45.823+05:30  INFO 6872 --- [demo] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-01-21T18:17:47.326+05:30  INFO 6872 --- [demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-01-21T18:17:47.349+05:30  INFO 6872 --- [demo] [main] com.example.demo.DemoApplication         : Started DemoApplication in 10.52 seconds (process running for 12.873)
+2026-01-21T18:17:47.919+05:30  INFO 6872 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-21T18:17:47.920+05:30  INFO 6872 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-21T18:17:47.922+05:30  INFO 6872 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-01-21T21:26:17.796+05:30  INFO 6872 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-21T21:26:17.848+05:30  INFO 6872 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-21T21:26:31.392+05:30  INFO 952 --- [demo] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.9 with PID 952 (C:\Users\WELCOME\IdeaProjects\Spring Security\demo\target\classes started by WELCOME in C:\Users\WELCOME\IdeaProjects\Spring Security\demo)
+2026-01-21T21:26:31.398+05:30 DEBUG 952 --- [demo] [main] com.example.demo.DemoApplication         : Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-21T21:26:31.399+05:30  INFO 952 --- [demo] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-01-21T21:26:35.240+05:30  INFO 952 --- [demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-01-21T21:26:35.280+05:30  INFO 952 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-21T21:26:35.282+05:30  INFO 952 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-21T21:26:35.435+05:30  INFO 952 --- [demo] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3887 ms
+2026-01-21T21:26:36.149+05:30  INFO 952 --- [demo] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-01-21T21:26:36.953+05:30  INFO 952 --- [demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-01-21T21:26:36.962+05:30  INFO 952 --- [demo] [main] com.example.demo.DemoApplication         : Started DemoApplication in 6.641 seconds (process running for 8.009)
+2026-01-21T21:26:44.119+05:30  INFO 952 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-21T21:26:44.120+05:30  INFO 952 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-21T21:26:44.123+05:30  INFO 952 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-01-21T21:27:22.131+05:30  INFO 952 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-21T21:27:22.142+05:30  INFO 952 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-21T21:34:42.383+05:30  INFO 12832 --- [demo] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.9 with PID 12832 (C:\Users\WELCOME\IdeaProjects\Spring Security\demo\target\classes started by WELCOME in C:\Users\WELCOME\IdeaProjects\Spring Security\demo)
+2026-01-21T21:34:42.388+05:30 DEBUG 12832 --- [demo] [main] com.example.demo.DemoApplication         : Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-21T21:34:42.394+05:30  INFO 12832 --- [demo] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-01-21T21:34:45.243+05:30  INFO 12832 --- [demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-01-21T21:34:45.263+05:30  INFO 12832 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-21T21:34:45.264+05:30  INFO 12832 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-21T21:34:45.468+05:30  INFO 12832 --- [demo] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2844 ms
+2026-01-21T21:34:46.123+05:30  INFO 12832 --- [demo] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-01-21T21:34:47.325+05:30  INFO 12832 --- [demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-01-21T21:34:47.331+05:30  INFO 12832 --- [demo] [main] com.example.demo.DemoApplication         : Started DemoApplication in 6.98 seconds (process running for 8.889)
+2026-01-21T21:34:47.821+05:30  INFO 12832 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-21T21:34:47.822+05:30  INFO 12832 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-21T21:34:47.824+05:30  INFO 12832 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-21T21:42:36.461+05:30  INFO 12832 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-21T21:42:36.470+05:30  INFO 12832 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-01-21T21:42:51.635+05:30  INFO 4808 --- [demo] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.9 with PID 4808 (C:\Users\WELCOME\IdeaProjects\Spring Security\demo\target\classes started by WELCOME in C:\Users\WELCOME\IdeaProjects\Spring Security\demo)
+2026-01-21T21:42:51.667+05:30 DEBUG 4808 --- [demo] [main] com.example.demo.DemoApplication         : Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-01-21T21:42:51.669+05:30  INFO 4808 --- [demo] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-01-21T21:42:55.249+05:30  INFO 4808 --- [demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8080 (http)
+2026-01-21T21:42:55.350+05:30  INFO 4808 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-01-21T21:42:55.352+05:30  INFO 4808 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-01-21T21:42:55.608+05:30  INFO 4808 --- [demo] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3795 ms
+2026-01-21T21:42:56.843+05:30  INFO 4808 --- [demo] [main] r$InitializeUserDetailsManagerConfigurer : Global AuthenticationManager configured with UserDetailsService bean with name userDetailsService
+2026-01-21T21:42:57.737+05:30  INFO 4808 --- [demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8080 (http) with context path '/'
+2026-01-21T21:42:57.742+05:30  INFO 4808 --- [demo] [main] com.example.demo.DemoApplication         : Started DemoApplication in 7.301 seconds (process running for 8.899)
+2026-01-21T21:42:58.110+05:30  INFO 4808 --- [demo] [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-01-21T21:42:58.111+05:30  INFO 4808 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-01-21T21:42:58.113+05:30  INFO 4808 --- [demo] [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2026-01-21T23:37:02.837+05:30  INFO 4808 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-01-21T23:37:02.861+05:30  INFO 4808 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
