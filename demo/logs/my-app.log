@@ -1,0 +1,89 @@
+2026-02-03T00:51:04.964+05:30  INFO 9012 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-03T00:51:05.002+05:30  INFO 9012 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-02-03T00:51:05.037+05:30  INFO 9012 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-03T00:51:05.042+05:30  INFO 9012 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-03T00:51:05.067+05:30  INFO 9012 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-02-03T00:51:16.025+05:30  INFO 3424 --- [demo] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.9 with PID 3424 (C:\Users\WELCOME\IdeaProjects\Spring Security\demo\target\classes started by WELCOME in C:\Users\WELCOME\IdeaProjects\Spring Security\demo)
+2026-02-03T00:51:16.030+05:30 DEBUG 3424 --- [demo] [main] com.example.demo.DemoApplication         : Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-02-03T00:51:16.031+05:30  INFO 3424 --- [demo] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-02-03T00:51:17.360+05:30  INFO 3424 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-03T00:51:17.464+05:30  INFO 3424 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 90 ms. Found 1 JPA repository interface.
+2026-02-03T00:51:19.112+05:30  INFO 3424 --- [demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-02-03T00:51:19.136+05:30  INFO 3424 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-03T00:51:19.137+05:30  INFO 3424 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-03T00:51:19.241+05:30  INFO 3424 --- [demo] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 3116 ms
+2026-02-03T00:51:19.349+05:30 DEBUG 3424 --- [demo] [main] c.e.demo.HelperClass.JwtAuthFilter       : Filter 'jwtAuthFilter' configured for use
+2026-02-03T00:51:19.548+05:30  INFO 3424 --- [demo] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-03T00:51:19.753+05:30  INFO 3424 --- [demo] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-03T00:51:20.625+05:30  INFO 3424 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-03T00:51:20.692+05:30  INFO 3424 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-03T00:51:21.012+05:30  INFO 3424 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ad112de
+2026-02-03T00:51:21.015+05:30  INFO 3424 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-03T00:51:21.138+05:30  WARN 3424 --- [demo] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-03T00:51:21.177+05:30  INFO 3424 --- [demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-03T00:51:23.016+05:30  INFO 3424 --- [demo] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-03T00:51:23.088+05:30  INFO 3424 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-03T00:51:23.243+05:30  INFO 3424 --- [demo] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-03T00:51:23.483+05:30  WARN 3424 --- [demo] [main] r$InitializeUserDetailsManagerConfigurer : Found 2 UserDetailsService beans, with names [customerUserDetailsServiceImpl, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-02-03T00:51:23.593+05:30  WARN 3424 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-03T00:51:24.345+05:30  INFO 3424 --- [demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-02-03T00:51:24.350+05:30  INFO 3424 --- [demo] [main] com.example.demo.DemoApplication         : Started DemoApplication in 9.286 seconds (process running for 10.422)
+2026-02-03T00:51:41.428+05:30  INFO 3424 --- [demo] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-03T00:51:41.428+05:30  INFO 3424 --- [demo] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-03T00:51:41.431+05:30  INFO 3424 --- [demo] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2026-02-03T00:53:14.718+05:30  INFO 3424 --- [demo] [http-nio-8082-exec-7] c.e.demo.controller.MainController       : Controller class
+2026-02-03T00:53:39.081+05:30  INFO 3424 --- [demo] [SpringApplicationShutdownHook] o.s.boot.tomcat.GracefulShutdown         : Commencing graceful shutdown. Waiting for active requests to complete
+2026-02-03T00:53:39.091+05:30  INFO 3424 --- [demo] [tomcat-shutdown] o.s.boot.tomcat.GracefulShutdown         : Graceful shutdown complete
+2026-02-03T00:53:39.097+05:30  INFO 3424 --- [demo] [SpringApplicationShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2026-02-03T00:53:39.101+05:30  INFO 3424 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2026-02-03T00:53:39.119+05:30  INFO 3424 --- [demo] [SpringApplicationShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2026-02-03T00:53:45.708+05:30  INFO 9520 --- [demo] [main] com.example.demo.DemoApplication         : Starting DemoApplication using Java 21.0.9 with PID 9520 (C:\Users\WELCOME\IdeaProjects\Spring Security\demo\target\classes started by WELCOME in C:\Users\WELCOME\IdeaProjects\Spring Security\demo)
+2026-02-03T00:53:45.713+05:30 DEBUG 9520 --- [demo] [main] com.example.demo.DemoApplication         : Running with Spring Boot v4.0.1, Spring v7.0.2
+2026-02-03T00:53:45.714+05:30  INFO 9520 --- [demo] [main] com.example.demo.DemoApplication         : No active profile set, falling back to 1 default profile: "default"
+2026-02-03T00:53:46.948+05:30  INFO 9520 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2026-02-03T00:53:47.082+05:30  INFO 9520 --- [demo] [main] .s.d.r.c.RepositoryConfigurationDelegate : Finished Spring Data repository scanning in 117 ms. Found 1 JPA repository interface.
+2026-02-03T00:53:48.168+05:30  INFO 9520 --- [demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat initialized with port 8082 (http)
+2026-02-03T00:53:48.192+05:30  INFO 9520 --- [demo] [main] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2026-02-03T00:53:48.192+05:30  INFO 9520 --- [demo] [main] o.apache.catalina.core.StandardEngine    : Starting Servlet engine: [Apache Tomcat/11.0.15]
+2026-02-03T00:53:48.270+05:30  INFO 9520 --- [demo] [main] b.w.c.s.WebApplicationContextInitializer : Root WebApplicationContext: initialization completed in 2462 ms
+2026-02-03T00:53:48.359+05:30 DEBUG 9520 --- [demo] [main] c.e.demo.HelperClass.JwtAuthFilter       : Filter 'jwtAuthFilter' configured for use
+2026-02-03T00:53:48.573+05:30  INFO 9520 --- [demo] [main] org.hibernate.orm.jpa                    : HHH008540: Processing PersistenceUnitInfo [name: default]
+2026-02-03T00:53:48.651+05:30  INFO 9520 --- [demo] [main] org.hibernate.orm.core                   : HHH000001: Hibernate ORM core version 7.2.0.Final
+2026-02-03T00:53:49.319+05:30  INFO 9520 --- [demo] [main] o.s.o.j.p.SpringPersistenceUnitInfo      : No LoadTimeWeaver setup: ignoring JPA class transformer
+2026-02-03T00:53:49.359+05:30  INFO 9520 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2026-02-03T00:53:49.553+05:30  INFO 9520 --- [demo] [main] com.zaxxer.hikari.pool.HikariPool        : HikariPool-1 - Added connection org.postgresql.jdbc.PgConnection@6ad112de
+2026-02-03T00:53:49.556+05:30  INFO 9520 --- [demo] [main] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2026-02-03T00:53:49.597+05:30  WARN 9520 --- [demo] [main] org.hibernate.orm.deprecation            : HHH90000025: PostgreSQLDialect does not need to be specified explicitly using 'hibernate.dialect' (remove the property setting and it will be selected by default)
+2026-02-03T00:53:49.627+05:30  INFO 9520 --- [demo] [main] org.hibernate.orm.connections.pooling    : HHH10001005: Database info:
+	Database JDBC URL [jdbc:postgresql://localhost:5432/postgres]
+	Database driver: PostgreSQL JDBC Driver
+	Database dialect: PostgreSQLDialect
+	Database version: 18.1
+	Default catalog/schema: postgres/public
+	Autocommit mode: undefined/unknown
+	Isolation level: READ_COMMITTED [default READ_COMMITTED]
+	JDBC fetch size: none
+	Pool: DataSourceConnectionProvider
+	Minimum pool size: undefined/unknown
+	Maximum pool size: undefined/unknown
+2026-02-03T00:53:51.229+05:30  INFO 9520 --- [demo] [main] org.hibernate.orm.core                   : HHH000489: No JTA platform available (set 'hibernate.transaction.jta.platform' to enable JTA platform integration)
+2026-02-03T00:53:51.298+05:30  INFO 9520 --- [demo] [main] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2026-02-03T00:53:51.454+05:30  INFO 9520 --- [demo] [main] o.s.d.j.r.query.QueryEnhancerFactories   : Hibernate is in classpath; If applicable, HQL parser will be used.
+2026-02-03T00:53:51.748+05:30  WARN 9520 --- [demo] [main] r$InitializeUserDetailsManagerConfigurer : Found 2 UserDetailsService beans, with names [customerUserDetailsServiceImpl, userDetailsService]. Global Authentication Manager will not use a UserDetailsService for username/password login. Consider publishing a single UserDetailsService bean.
+2026-02-03T00:53:51.846+05:30  WARN 9520 --- [demo] [main] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2026-02-03T00:53:52.639+05:30  INFO 9520 --- [demo] [main] o.s.boot.tomcat.TomcatWebServer          : Tomcat started on port 8082 (http) with context path '/'
+2026-02-03T00:53:52.647+05:30  INFO 9520 --- [demo] [main] com.example.demo.DemoApplication         : Started DemoApplication in 7.732 seconds (process running for 8.649)
+2026-02-03T00:54:03.835+05:30  INFO 9520 --- [demo] [http-nio-8082-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/]       : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2026-02-03T00:54:03.836+05:30  INFO 9520 --- [demo] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2026-02-03T00:54:03.838+05:30  INFO 9520 --- [demo] [http-nio-8082-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
