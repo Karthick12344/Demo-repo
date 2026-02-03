@@ -33,11 +33,11 @@ public class SecurityConfiguration {
         this.jwtAuthFilter = jwtAuthFilter;
     }
 
-
+/*
     @Bean
     public UserDetailsService userDetailsService(PasswordEncoder passwordEncoder)
     {
-       /* UserDetails userDetails = User.builder()
+        UserDetails userDetails = User.builder()
                 .username("admin")
                 .password(passwordEncoder.encode("admin123") )//{noop} indicates that no encoding is used
                // .password("$2a$12$oNdeGdK9zRr.91mimlAhJ.L7JwRVCTmVAdrEpZHBqc9UImD2jLXuW")
@@ -53,11 +53,11 @@ public class SecurityConfiguration {
 
 
         return new InMemoryUserDetailsManager(userDetails,userDetails1){
-         };*/
+         };
         return new CustomerUserDetailsServiceImpl();
 
 
-    }
+    }*/
 
     @Bean
     public PasswordEncoder passwordEncoder() {
@@ -70,9 +70,12 @@ public class SecurityConfiguration {
         httpSecurity
                 .csrf(csrf ->csrf.disable())
                 .authorizeHttpRequests(auth -> auth
-                        .requestMatchers("/welcome").permitAll()
-                        .requestMatchers("/adduser").permitAll()
-                        .requestMatchers("/token").permitAll()
+                        .requestMatchers(
+                                "/demo/login",
+                                "/demo/token",
+                                "/demo/adduser",
+                                "/demo/public-check"
+                        ).permitAll()
                         .anyRequest().authenticated()
                 )
                 .addFilterBefore(jwtAuthFilter, UsernamePasswordAuthenticationFilter.class);

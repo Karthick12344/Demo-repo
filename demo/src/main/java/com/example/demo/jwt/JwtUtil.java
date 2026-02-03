@@ -47,6 +47,26 @@ import java.util.Date;
 
         }
 
+
+        public String extractUsername(String token) {
+            return parseClaims(token).getSubject();
+        }
+
+        public boolean validateToken(String token, UserDetails userDetails) {
+            return extractUsername(token).equals(userDetails.getUsername())
+                    && !parseClaims(token).getExpiration().before(new Date());
+        }
+
+        private Claims parseClaims(String token) {
+            return Jwts.parserBuilder()
+                    .setSigningKey(key)
+                    .build()
+                    .parseClaimsJws(token)
+                    .getBody();
+        }
+
+
+/*
         public String getUserName(String token) {
             return extractClaims(token).getSubject();
         }
@@ -69,6 +89,9 @@ import java.util.Date;
                     .getExpiration()
                     .before(new Date());
         }
+
+        */
+
 
     }
 
